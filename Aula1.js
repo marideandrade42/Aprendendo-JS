@@ -66,3 +66,22 @@ const V2 = 21
 
 console.log(V1/2 === V2);
 
+// NULL and UNDEFINED
+
+let input = null;
+let input2;
+
+console.log(input); // null
+console.log(input2); // undefined
+
+console.log(null == undefined); // true
+console.log(null === undefined); // false
+console.log(null !== undefined); // true
+
+const soma = 10 + 10;
+const multiplicacao = 10 * 10;
+const operacao = (soma + multiplicacao) + 10;
+
+V1 = 5
+
+console.log(operacao)
