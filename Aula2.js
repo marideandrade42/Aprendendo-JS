@@ -55,4 +55,4 @@ console.log (numeroo == numeroString);
 
 console.log (numeroo + Number(numeroString));
 
-
+console.log (numeroo + numeroo.toString());
